@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(225, 220, 220);
+}
+
+form {
+    text-align: center;
+    margin: 3rem; 
+}
+
+.numBtn {
+    background-color: rgb(212, 212, 212);
+
+}
+
+.operatorBtn {
+    background-color: rgb(158, 158, 159);
+}
+
+/* Botão Invisível para ocupar espaço */
+.blind {
+    opacity: 0;
+}
+
+#memory {
+    margin-left: 30rem;
+    user-select: none;
+}
+
+#txtVisor {
+    position: relative;
+    font-size: 40px;
+    height: 1.5em;
+
+}
+
+
+.btns {
+    margin-top: 20px;
+    user-select: none;
+}
+
+.btns input {
+    font-size: 40px;
+    width: 2em;
+    height: 2em;
+    margin: 5px;
+}
+
+
